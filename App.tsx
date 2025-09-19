@@ -47,23 +47,23 @@ const App: React.FC = () => {
 
   return (
     <>
-      {/* Left Ad */}
+      {/* Left Ad - Using Right Ad's ID for testing */}
       <aside className="fixed top-1/2 -translate-y-1/2 left-4 z-50 hidden 2xl:block" aria-label="Advertisement">
         <ins
           className="kakao_ad_area"
           style={{ display: 'none' }}
-          data-ad-unit="DAN-qXttJcZF4ymJRAg2"
+          data-ad-unit="DAN-iZFHkkC931TctMR7"
           data-ad-width="160"
           data-ad-height="600"
         ></ins>
       </aside>
 
-      {/* Right Ad */}
+      {/* Right Ad - Using Left Ad's ID for testing */}
       <aside className="fixed top-1/2 -translate-y-1/2 right-4 z-50 hidden 2xl:block" aria-label="Advertisement">
         <ins
           className="kakao_ad_area"
           style={{ display: 'none' }}
-          data-ad-unit="DAN-iZFHkkC931TctMR7"
+          data-ad-unit="DAN-qXttJcZF4ymJRAg2"
           data-ad-width="160"
           data-ad-height="600"
         ></ins>
